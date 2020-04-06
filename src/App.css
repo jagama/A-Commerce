@@ -1,0 +1,13 @@
+.App {
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  max-height: 100%;
+}
+
+h4{
+  color: white;
+}
