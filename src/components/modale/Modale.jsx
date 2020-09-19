@@ -3,7 +3,7 @@ import Button from 'react-bootstrap/Button';
 import Modal from 'react-bootstrap/Modal';
 
 
-export default function Modale({ titolo, setCount, count, setOrder, order }) {
+export default function Modale({ titolo, setCount, count, setOrder, order, price ,setPrezzo }) {
 
     //clarify my state
     const [show, setShow] = useState(false);
@@ -12,9 +12,11 @@ export default function Modale({ titolo, setCount, count, setOrder, order }) {
     const handleClose = () => setShow(false);
     const handleShow = () => setShow(true);
 
+
     const updateCart = (item) => {
         setOrder([...order, item])
         setCount(count + 1);
+        setPrezzo(price)
         handleClose()
     };
 
@@ -28,12 +30,12 @@ export default function Modale({ titolo, setCount, count, setOrder, order }) {
                     {/* props => titolo */}
                     <Modal.Title>{titolo}</Modal.Title>
                 </Modal.Header>
-                <Modal.Body>Hey nice, proceed to the cart</Modal.Body>
+                <Modal.Body>The price is {price}</Modal.Body>
                 <Modal.Footer>
                     <Button variant="danger" onClick={handleClose}>
                         Close
                 </Button>
-                    <Button variant="success" onClick={() => updateCart(titolo)}>
+                    <Button variant="success" onClick={() => updateCart(titolo, price)}>
                         Add to Cart
                 </Button>
                 </Modal.Footer>

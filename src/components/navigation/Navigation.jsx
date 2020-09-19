@@ -38,6 +38,9 @@ export default function Navigation({ setEndUrl, count }) {
                         </Nav.Link>
                     </Nav>
                     <div className="counter d-flex justify-content-around">
+                        <Nav.Link as={Link} to="/wallet">
+                            <h4>Your Wallet</h4>
+                        </Nav.Link>
                         <Nav.Link as={Link} to="/cart" className='px-2' style={{ color: 'white' }}> {/* dynamic portion, added to my url */}
                             <h4>Your Cart</h4>
                         </Nav.Link>

@@ -9,7 +9,7 @@ import '../../shared/shared.css'
 const { Meta } = Card;
 
 
-export default function Body({ endUrl, setCount, count, setOrder, order }) {
+export default function Body({ endUrl, setCount, count, setOrder, order, prezzo, setPrezzo }) {
     //clarify my init state
     const [data, setData] = useState([]);
 
@@ -72,14 +72,20 @@ export default function Body({ endUrl, setCount, count, setOrder, order }) {
                             avatar={
                                 <Avatar style={{ backgroundColor: "orange" }}>{item.id}</Avatar>
                             }
-                            title={item.title}
+                            title={item.title} 
+
                         />
                         {/* passing to <Modale/> my props */}
+                        <h3>{item.id % 2 === 0 ? '15€' : '30€'}</h3>
                         <Modale titolo={item.title} style={{ margin: 'auto' }}
                             setCount={setCount}
                             count={count}
                             setOrder={setOrder}
-                            order={order} />
+                            order={order} 
+                            price={item.id % 2 === 0 ? '15€' : '30€'}
+                                prezzo={prezzo}
+                                setPrezzo={setPrezzo}
+                        />
                     </Card>
                 </LazyLoad>
             ))}

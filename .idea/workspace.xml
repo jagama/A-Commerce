@@ -1,46 +1,90 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="2a62bf87-ec9c-49bf-8f46-1c6d4d253269" name="Default Changelist" comment="" />
+    <list default="true" id="2a62bf87-ec9c-49bf-8f46-1c6d4d253269" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/site-content/wallet.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/modale/Modale.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/modale/Modale.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/navigation/Navigation.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/navigation/Navigation.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/site-content/Body.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/site-content/Body.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/site-content/Cart.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/site-content/Cart.jsx" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="DatabaseView">
-    <option name="SHOW_INTERMEDIATE" value="true" />
-    <option name="GROUP_DATA_SOURCES" value="true" />
-    <option name="GROUP_SCHEMA" value="true" />
-    <option name="GROUP_CONTENTS" value="false" />
-    <option name="SORT_POSITIONED" value="false" />
-    <option name="SHOW_EMPTY_GROUPS" value="false" />
-    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
-    <option name="HIDDEN_KINDS">
-      <set />
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
     </option>
-    <expand />
-    <select />
   </component>
-  <component name="FavoritesManager">
-    <favorites_list name="ACommerce" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1aBY88cOQaZxTyLY90Wjh5dQYF4" />
   <component name="ProjectViewState">
     <option name="autoscrollToSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="yarn" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="npm run start" />
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <package-manager value="npm" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.start" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -53,40 +97,54 @@
       <updated>1586210291849</updated>
       <workItem from="1586210298642" duration="644000" />
       <workItem from="1586211045238" duration="663000" />
+      <workItem from="1586214541259" duration="43000" />
+      <workItem from="1586216869976" duration="27000" />
+      <workItem from="1586245868218" duration="31000" />
+      <workItem from="1586769344100" duration="885000" />
+      <workItem from="1586781121535" duration="5000" />
+      <workItem from="1593091469634" duration="79000" />
+      <workItem from="1593091985379" duration="7660000" />
+      <workItem from="1593102447193" duration="8000" />
+      <workItem from="1593128813825" duration="132000" />
+      <workItem from="1593130302524" duration="22000" />
+      <workItem from="1600523310296" duration="729000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="WindowStateProjectService">
-    <state width="1877" height="295" key="GridCell.Tab.0.bottom" timestamp="1586211717750">
+    <state width="2517" height="295" key="GridCell.Tab.0.bottom" timestamp="1593102050407">
+      <screen x="-300" y="-1080" width="2560" height="1080" />
+    </state>
+    <state width="2517" height="295" key="GridCell.Tab.0.bottom/0.0.1920.1080/-300.-1080.2560.1080@-300.-1080.2560.1080" timestamp="1593102050407" />
+    <state width="2517" height="295" key="GridCell.Tab.0.center" timestamp="1593102050407">
+      <screen x="-300" y="-1080" width="2560" height="1080" />
+    </state>
+    <state width="2517" height="295" key="GridCell.Tab.0.center/0.0.1920.1080/-300.-1080.2560.1080@-300.-1080.2560.1080" timestamp="1593102050407" />
+    <state width="2517" height="295" key="GridCell.Tab.0.left" timestamp="1593102050407">
+      <screen x="-300" y="-1080" width="2560" height="1080" />
+    </state>
+    <state width="2517" height="295" key="GridCell.Tab.0.left/0.0.1920.1080/-300.-1080.2560.1080@-300.-1080.2560.1080" timestamp="1593102050407" />
+    <state width="2517" height="295" key="GridCell.Tab.0.right" timestamp="1593102050407">
+      <screen x="-300" y="-1080" width="2560" height="1080" />
+    </state>
+    <state width="2517" height="295" key="GridCell.Tab.0.right/0.0.1920.1080/-300.-1080.2560.1080@-300.-1080.2560.1080" timestamp="1593102050407" />
+    <state x="777" y="454" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1600523388772">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="295" key="GridCell.Tab.0.bottom/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1586211717750" />
-    <state width="1877" height="295" key="GridCell.Tab.0.center" timestamp="1586211717749">
-      <screen x="0" y="0" width="1920" height="1080" />
-    </state>
-    <state width="1877" height="295" key="GridCell.Tab.0.center/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1586211717749" />
-    <state width="1877" height="295" key="GridCell.Tab.0.left" timestamp="1586211717749">
-      <screen x="0" y="0" width="1920" height="1080" />
-    </state>
-    <state width="1877" height="295" key="GridCell.Tab.0.left/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1586211717749" />
-    <state width="1877" height="295" key="GridCell.Tab.0.right" timestamp="1586211717749">
-      <screen x="0" y="0" width="1920" height="1080" />
-    </state>
-    <state width="1877" height="295" key="GridCell.Tab.0.right/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1586211717749" />
-    <state x="461" y="182" key="SettingsEditor" timestamp="1586210615815">
-      <screen x="0" y="0" width="1920" height="1080" />
-    </state>
-    <state x="461" y="182" key="SettingsEditor/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1586210615815" />
-    <state x="616" y="250" key="run.anything.popup" timestamp="1586211084290">
-      <screen x="0" y="0" width="1920" height="1080" />
-    </state>
-    <state x="616" y="250" key="run.anything.popup/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1586211084290" />
-    <state x="623" y="235" width="672" height="678" key="search.everywhere.popup" timestamp="1586211080742">
-      <screen x="0" y="0" width="1920" height="1080" />
-    </state>
-    <state x="623" y="235" width="672" height="678" key="search.everywhere.popup/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1586211080742" />
+    <state x="777" y="454" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1080/-326.-1080.2560.1080@0.0.1920.1080" timestamp="1600523388772" />
   </component>
 </project>
